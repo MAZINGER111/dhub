@@ -1,7 +1,7 @@
 .parallax-container{
     background-image: url(../img/dhub\ home.jpg);
  background-attachment: fixed;
-    background-position: initial;
+    background-position: center;
     background-size: cover;
   
   }
@@ -24,6 +24,7 @@ div{
 #back{
     background-image: url(../img/IMG-20200606-WA0048\ -\ Copy.jpg);
     background-size: cover;
+    background-position: right;
 
 }
 #transbox{
