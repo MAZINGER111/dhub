@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>DHUB Innovation</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/materialize.min.css">
+    <link rel="stylesheet" href="css/animate.css">
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./fonts/roboto/Roboto-Regular.woff">
+    <!--===============================================================================================-->
+    <link rel="icon" type="image/png" href="images/icons/favicon.ico" />
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+    <!--===============================================================================================-->
+    <link rel="stylesheet" type="text/css" href="css/util.css">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
+    <!--===============================================================================================-->
+
+
+</head>
+
+<body>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"
+        integrity="sha512-bLT0Qm9VnAYZDflyKcBaQ2gg0hSYNQrJ8RilYldYQ1FxQYoCLtUjuuRuZo+fjqhx/qtq/1itJ0C2ejDxltZVFg=="
+        crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <script>
+        $(document).ready(function () {
+            $('.sidenav').sidenav();
+        });
+    </script>
+
+    <nav>
+        <nav class="nav-wrapper deep-orange white-text">
+            <a href="index.html" class="brand-logo">dHUB</a>
+            <a href="" class="sidenav-trigger" data-target="mobile-nav">
+                <i class="material-icons">menu</i>
+            </a>
+            <ul class="right hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="aboutUs.html">About Us</a></li>
+                <li><a href="startUps.html">StartUps</a></li>
+                <li class="active"><a href="contact.html">Contact Us</a></li>
+
+            </ul>
+        </nav>
+    </nav>
+
+    <ul class="sidenav" id="mobile-nav">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="aboutUs.html">About Us</a></li>
+        <li><a href="startUps.html">StartUps</a></li>
+        <li><a href="contact.html">Contact Us</a></li>
+
+    </ul>
+    <!-- banner goes here -->
+    <div class="container-contact100">
+        <div class="contact100-map" id="google_map" data-map-x="40.722012" data-map-y="-73.986047"
+            data-pin="img/icons/map-marker.png" data-scrollwhell="0" data-draggable="1"></div>
+
+        <div class="wrap-contact100">
+            <div class="contact100-form-title" style="background-image: url(img/feelgood.jpg);">
+                <span class="contact100-form-title-1">
+                    Contact Us
+                </span>
+
+                <span class="contact100-form-title-2">
+                    Feel free to drop us a line below!
+                </span>
+            </div>
+
+            <form class="contact100-form validate-form">
+                <div class="wrap-input100 validate-input" data-validate="Name is required">
+                    <span class="label-input100">Full Name:</span>
+                    <input class="input100" type="text" name="name" placeholder="Enter full name">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Valid email is required: ex@abc.xyz">
+                    <span class="label-input100">Email:</span>
+                    <input class="input100" type="text" name="email" placeholder="Enter email addess">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Phone is required">
+                    <span class="label-input100">Phone:</span>
+                    <input class="input100" type="text" name="phone" placeholder="Enter phone number">
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="wrap-input100 validate-input" data-validate="Message is required">
+                    <span class="label-input100">Message:</span>
+                    <textarea class="input100" name="message" placeholder="Your Comment..."></textarea>
+                    <span class="focus-input100"></span>
+                </div>
+
+                <div class="container-contact100-form-btn">
+                    <button class="contact100-form-btn">
+                        <span>
+                            Submit
+                            <i class="fa fa-long-arrow-right m-l-7" aria-hidden="true"></i>
+                        </span>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+
+
+    <div id="dropDownSelect1"></div>
+
+    <!--===============================================================================================-->
+    <script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/animsition/js/animsition.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/bootstrap/js/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/select2/select2.min.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/daterangepicker/moment.min.js"></script>
+    <script src="vendor/daterangepicker/daterangepicker.js"></script>
+    <!--===============================================================================================-->
+    <script src="vendor/countdowntime/countdowntime.js"></script>
+    <!--===============================================================================================-->
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAKFWBqlKAGCeS1rMVoaNlwyayu0e0YRes"></script>
+    <script src="js/map-custom.js"></script>
+    <!--===============================================================================================-->
+    <script src="js/main.js"></script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-23581568-13"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-23581568-13');
+    </script>
+
+
+
+    <footer class="card-panel deep-orange darken-2 white-text">
+        <div class="row container">
+            <div class="col l6 s12 m6">
+                <h5>About Us</h5>
+                <p class="white-text">We are an amazing team of passionate individuals who are leveraging on technology
+                    to solve seventeen
+                    SDGs.</p>
+            </div>
+
+            <div class="col l6 s12 m6">
+                <div id="contact">
+                    <h5>Contact Us</h5>
+                    <a href="https://www.facebook.com/dHubNigeria/" class="btn deep-orange"><i
+                            class="icon ion-logo-facebook"></i> </a>
+                    <a href="https://twitter.com/dhubnigeria" class="btn deep-orange"><i
+                            class="icon ion-logo-twitter"></i> </a>
+
+
+
+                    <h6>
+                        <address>No 2, Shalom Street, TKP Junction, University Road, Tanke, Ilorin, Kwara State.
+                        </address>
+                    </h6>
+                    <h6>Email: dhubinnovation@gmail.com</h6>
+                    <h6>Phone: 07068775529 08062264208</h6>
+                    <br>
+
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright deep-orange darken-3">
+            <div class="container">
+                Made by <a href="https://www.twitter.com/monsur18" class="brown-text text-lighten-3">Mazinger</a>
+            </div>
+        </div>
+
+
+    </footer>
+
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.min.js"></script>
+    <script src="js/utils.js"></script>
+
+</body>
+
+</html>

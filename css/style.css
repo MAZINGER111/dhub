@@ -4,6 +4,12 @@
     background-size: cover;
   
   }
+  .parallax-container2{
+    background-image: url(../img/feelgood.jpg);
+    background-position: center;
+    background-size: cover;
+  
+  }
 body{
     font-family: roboto;
     src: url(../fonts/roboto/Roboto-Regular.woff
